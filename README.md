@@ -47,7 +47,7 @@ python app.py
 
 * dvc init
 * dvc repro
-* dvc dags
+* dvc dag
 
 
 
