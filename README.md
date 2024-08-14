@@ -25,7 +25,7 @@ https://github.com/Theojims/Kidney-Disease-Classification-Deep-Learning-Project
 ### STEP 01- Create a python environment after opening the repository
 
 ```bash
-python -m venv cnncls 
+python -m venv kidney
 ```
 
 ```bash
@@ -43,7 +43,11 @@ pip install -r requirements.txt
 python app.py
 ```
 
+## DVC CMDS
 
+* dvc init
+* dvc repro
+* dvc dags
 
 
 
