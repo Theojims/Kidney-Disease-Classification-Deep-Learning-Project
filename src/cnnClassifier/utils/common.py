@@ -141,10 +141,10 @@ def decodeImage(imgstring, fileName):
 
     imgdata=base64.b64decode(imgstring)
 
-    with open(filename, 'wb') as file:
+    with open(fileName, 'wb') as file:
 
         file.write(imgdata)
-        f.close()
+        file.close()
 
 
 def encodeImageIntoBase64(croppedImagePath):
